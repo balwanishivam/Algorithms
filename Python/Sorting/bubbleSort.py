@@ -1,3 +1,5 @@
+# This is program of Bubble Sort Technique
+
 def bubble(a):
     for i in range(len(a)):
         for j in range(0,len(a)-i-1):
@@ -45,3 +47,4 @@ for i in range(1,11):
 
         print('Worst Case :',sum3/10)
         print('Average Case:',sum1/10)
+# End of the program
